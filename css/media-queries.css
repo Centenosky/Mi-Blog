@@ -1,3 +1,5 @@
+/* Inicio de los Media queries del curso */
+
 @media (max-width: 900px) {
   .blogs-main-new {
     grid-template-columns: 1fr;
@@ -27,9 +29,150 @@
   }
 }
 
+/* Fin de los Media queries del curso */
+
+
+
+@media (max-width: 1400px) {
+  .home-main-text {
+    font-size: 40px;
+  }
+
+  .home-main-button a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-main-text {
+    font-size: 34px;
+    letter-spacing: 10px;
+  }
+
+  .home-main section {
+    margin-top: 0;
+    align-items: flex-end;
+  }
+
+  .home-main-button a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1023px) {
+  header .header-icons-container .icons {
+    margin-right: 30px;
+  }
+
+  nav .nav-logo-container {
+    margin-left: 25px;
+  }
+
+  nav .profile-link {
+    margin-right: 30px;
+  }
+
+  .home-main-text {
+    font-size: 35px;
+    letter-spacing: 8px;
+    margin: 0 100px;
+  }
+
+  .home-main-button {
+    padding: 15px 20px;
+  }
+
+  .home-main {
+    grid-template-columns: 1fr;
+  }
+
+  .home-main-button a {
+    font-size: 20px;
+  }
+
+  nav .profile-link a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 840px) {
+  .home-main-text {
+    font-size: 32px;
+    margin: 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  header .header-icons-container {
+    justify-content: center;
+  }
+
+  header .header-icons-container .icons {
+    margin-right: 15px;
+  }
+
+  nav .nav-logo-container {
+    margin-left: 0;
+  }
+
+  nav .profile-link {
+    margin-right: 15px;
+  }
+
+  .home-main-text {
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 0 20px;
+  }
+
+  .home-main section {
+    height: 420px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 570px) {
+  .home-main-text {
+    font-size: 27px;
+    margin: 0 10px;
+  }
+}
+
+
+/* Inicio de los Media queries del curso */
 
 @media (max-width: 600px) {
   .blogs-post-container .post-container {
     max-width: 95%;
+  }
+}
+
+/* Fin de los Media queries del curso */
+
+@media (max-width: 510px) {
+  header {
+    height: 120px;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  nav .nav-logo-container img {
+    margin-top: 0;
+    width: 200px;
+  }
+
+  .home-main-text {
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+
+  .home-main-button {
+    padding: 12px 17px;
+  }
+
+  .home-main-button a {
+    font-size: 17px;
   }
 }
