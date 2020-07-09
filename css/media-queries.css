@@ -21,11 +21,13 @@
 
   .proyects-main-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;
   }
 
-  .profile-main-container .profile-container {
-    display: block;
+  .profile-hero-container h2 {
+    font-size: 1.4em;
+  }
+  .profile-hero-container p {
+    font-size: .95em;
   }
 }
 
@@ -93,6 +95,16 @@
   nav .profile-link a {
     font-size: 16px;
   }
+
+  /* ----------------------media queries de perfil.html----------------------- */
+
+  .profile-hero-container h2 {
+    margin-top: 0;
+  }
+
+  .profile-hero-container p {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 840px) {
@@ -100,13 +112,24 @@
     font-size: 32px;
     margin: 0 80px;
   }
+  .profile-hero-container h2 {
+    margin-bottom: 7px;
+    font-size: 1.33em;
+  }
+  .profile-hero-container p {
+    margin-top: 7px;
+    font-size: .9em;
+  }
+  p {
+    font-size: .9em;
+  }
 }
 
 @media (max-width: 767px) {
   header .header-icons-container {
     justify-content: center;
   }
-
+  
   header .header-icons-container .icons {
     margin-right: 15px;
   }
@@ -114,20 +137,33 @@
   nav .nav-logo-container {
     margin-left: 0;
   }
-
+  
   nav .profile-link {
     margin-right: 15px;
   }
-
+  
   .home-main-text {
     font-size: 30px;
     letter-spacing: 6px;
     margin: 0 20px;
   }
-
+  
   .home-main section {
     height: 420px;
     margin-top: 20px;
+  }
+  /* ------------media queries del perfil.html-------------------- */
+  .profile-main-container .profile-container {
+    display: block
+  }
+  .profile-image-container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .profile-hero-container {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 30px;
   }
 }
 
@@ -145,9 +181,41 @@
   .blogs-post-container .post-container {
     max-width: 95%;
   }
+
+  .profile-main-container {
+    padding: 70px 35px;
+  }
+
+  /* ----------------------media queries de perfil.html------------------------------- */
+
+  .contact-main-container div {
+    width: 49%;
+  }
+
 }
 
 /* Fin de los Media queries del curso */
+
+@media (max-width: 540px) {
+  /* -------------------media queries de perfil.html--------------- */
+  .profile-image-container {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .profile-hero-container {
+    width: 93%;
+  }
+
+  .profile-main-container {
+    padding: 65px 30px;
+    margin-bottom: 40px;
+  }
+
+  .proyects-main-container {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (max-width: 510px) {
   header {
@@ -174,5 +242,73 @@
 
   .home-main-button a {
     font-size: 17px;
+  }
+  
+  /* -------------------media queries de perfil.html--------------- */
+  .profile-image-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .profile-hero-container {
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .contact-main-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-main-container div {
+    width: 60%;
+  }
+
+  .contact-main-container .contact-left, .contact-right  {
+    margin-top: 10px;
+  }
+
+  .contact-main-container div a {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    height: 115px;
+  }
+
+  nav {
+    height: 65px;
+  }
+  nav .nav-logo-container img {
+    width: 175px;
+    margin-top: 10px;
+  }
+
+  .home-main section {
+    align-items: center;
+    height: 350px;
+  }
+
+  .home-main-text {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  /* -------------------------media queries del perfil.html------------------------  */
+
+  .profile-image-container {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  .profile-hero-container {
+    width: 95%;
+  }
+  
+  .profile-main-container {
+    padding: 60px 20px;
+    margin-bottom: 40px;
   }
 }

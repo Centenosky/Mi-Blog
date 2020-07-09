@@ -305,9 +305,12 @@ footer p {
   margin-bottom: 50px;
 }
 
-.profile-main-container img {
-  width: 320px;
+.profile-image-container {
   margin-right: 30px;
+}
+
+.profile-main-container img {
+  width: 100%;
 }
 
 .profile-main-proyects {
