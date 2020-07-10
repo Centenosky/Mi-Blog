@@ -178,7 +178,8 @@ nav .profile-link a {
 
 .blogs-main-new {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  /* grid-template-columns: 2fr 1fr; */
+  grid-template-columns: 4fr 3fr;
   grid-template-rows: 2fr;
 }
 
@@ -187,7 +188,7 @@ nav .profile-link a {
 }
 
 .blogs-news-img-container img {
-  width: 85%;
+  width: 92%;
 }
 
 .blogs-news-info-container {
@@ -216,7 +217,7 @@ nav .profile-link a {
 
 .blogs-post-container .post-container {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 1%;
   max-width: 30%;
   margin-bottom: 50px;
 }
