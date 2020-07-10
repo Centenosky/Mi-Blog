@@ -326,6 +326,15 @@
   .contact-main-container div a {
     text-align: center;
   }
+
+  .blogpost-main-container article h2 {
+    font-size: 30px;
+    margin: 25px 0;
+  }
+
+  .blogpost-img-container {
+    padding: 7px 35px 20px;
+  }
 }
 
 @media (max-width: 425px) {
